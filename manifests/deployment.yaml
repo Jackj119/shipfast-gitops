@@ -20,7 +20,7 @@ spec:
         runAsUser: 10001
       containers:
         - name: flask-status
-          image: flask-status:jackj119
+          image: jackj119/shipfast-status:1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
